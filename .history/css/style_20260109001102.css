@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: #7b0d1e;
+  --card-color: #f8e5ee;
+  --text-color: black;
+  --button-color: var(--background-color);
+
+  /* Lighter theme */
+  --background-color: var(--card-color);
+  --card-color: var(var(--background-color));
+  --text-color: var(--text-color);
+}

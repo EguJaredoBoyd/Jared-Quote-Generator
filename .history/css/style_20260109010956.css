@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: #7b0d1e;
+  --card-color: #f8e5ee;
+  --text-color: black;
+  --button-color: var(--background-color);
+}
+
+html {
+  font-size: 16px;
+}
+
+.lighter-theme {
+  --background-color: var(--card-color);
+  --card-color: var(--background-color);
+  --text-color: var(--text-color);
+  --button-color: var(--button-color);
+}
+
+.container {
+  background-color: green;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  background-color: red;
+  width: 100%;
+}
+
+header button {
+  border: none;
+  background: none;
+  color: var(--button-color);
+}
+
+.quote-container {
+  background-color: purple;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50vh;
+  width: 80vw;
+  max-width: 80vw;
+}
+
+.quote-container__copy {
+  align-self: self-end;
+  background-color: pink;
+}
+
+.quote-container__quotes {
+  background-color: orange;
+  max-width: 100%;
+}
+
+.quote-container__quotes h3 {
+  text-align: center;
+}
+
+.quote-container__quotes p {
+  background-color: blue;
+  max-width: 100%;
+  content: border-box;
+
+  text-align: center;
+}
+
+.quote-container,
+.quote-container * {
+  outline: 1px solid red;
+}

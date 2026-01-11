@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="../js/main.js" defer></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="../js/theme.js" defer></script>
+    <script src="../js/copy.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <button id="theme-toggle">
+          <i class="ri-sun-line" id="theme-icon"></i>
+        </button>
+      </header>
+      <main>
+        <div class="quote-container">
+          <span class="copy-alert" id="copy-feedback">Copied!</span>
+          <div class="quote-container__copy">
+            <button id="copy-quote"><i class="ri-file-copy-line"></i></button>
+          </div>
+          <div class="quote-container__quotes">
+            <h3>Quote of the day</h3>
+            <p id="quote-content">
+              <span><i class="ri-double-quotes-l"></i></span> Lorem ipsum dolor
+              sit amet consectetur adipisicing elit. Doloremque, vitae.
+              <span><i class="ri-double-quotes-r"></i></span>
+            </p>
+            <div class="quote-container__author">
+              <h5>&mdash; <i>Author</i></h5>
+            </div>
+          </div>
+          <hr />
+          <div class="quote-container__new--quote">
+            <button>New Quote</button>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="footer__developer">
+          <h6>Jared Quote Generator</h6>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

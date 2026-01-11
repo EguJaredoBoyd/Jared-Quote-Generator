@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: #7b0d1e;
+  --card-color: #f8e5ee;
+  --text-color: black;
+  --button-color: var(--background-color);
+}
+
+.lighter-theme {
+  --background-color: var(--card-color);
+  --card-color: var(--background-color);
+  --text-color: var(--text-color);
+  --button-color: var(--button-color);
+}
+
+.container {
+  background-color: green;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  background-color: red;
+  width: 100%;
+}
+
+header button {
+  background-color: none;
+}
