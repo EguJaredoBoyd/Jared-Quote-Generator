@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 
-  /* outline: 1px solid blue; */
+  outline: 1px solid blue;
 }
 
 :root {
@@ -17,51 +17,28 @@ html {
   font-size: 16px;
 }
 
-.lighter-theme {
-  --background-color: #f8e5ee;
-  --card-color: #7b0d1e;
-  --text-color: whitesmoke;
-  --button-color: #f8e5ee;
-}
-
 /* Loading Page Styles */
 .loading-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-}
-
-.loading-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   row-gap: 1rem;
-  height: 8rem;
-  width: 8rem;
-  border-radius: 2rem;
-  background-color: var(--card-color);
-  color: var(--text-color);
 }
 
 .loading-wrapper div {
   height: 2rem;
   width: 2rem;
-  border: 2px solid var(--text-color);
+  border: 2px solid black;
+  justify-self: center;
   padding: 1.5rem;
-  border-radius: 50%;
-  border-top: 2px solid transparent;
-  animation: rotate 1s linear infinite;
 }
 
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+.lighter-theme {
+  --background-color: #f8e5ee;
+  --card-color: #7b0d1e;
+  --text-color: whitesmoke;
+  --button-color: #f8e5ee;
 }
 
 body {

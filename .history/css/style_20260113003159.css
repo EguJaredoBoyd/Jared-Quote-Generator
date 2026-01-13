@@ -52,7 +52,8 @@ html {
   padding: 1.5rem;
   border-radius: 50%;
   border-top: 2px solid transparent;
-  animation: rotate 1s linear infinite;
+  transform: translateY(2rem);
+  /* transition: transfrom 2s linear infinite; */
 }
 
 @keyframes rotate {

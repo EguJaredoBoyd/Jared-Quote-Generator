@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 
-  /* outline: 1px solid blue; */
+  outline: 1px solid blue;
 }
 
 :root {
@@ -41,8 +41,6 @@ html {
   height: 8rem;
   width: 8rem;
   border-radius: 2rem;
-  background-color: var(--card-color);
-  color: var(--text-color);
 }
 
 .loading-wrapper div {
@@ -52,16 +50,6 @@ html {
   padding: 1.5rem;
   border-radius: 50%;
   border-top: 2px solid transparent;
-  animation: rotate 1s linear infinite;
-}
-
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
 }
 
 body {
