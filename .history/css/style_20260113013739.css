@@ -159,11 +159,13 @@ header button {
   justify-self: end;
   padding-right: 1rem;
   max-width: 100%;
+  background-color: orange;
 }
 
 .quote-container__author h5 {
   font-weight: 300;
   max-width: 100%;
+  background-color: pink;
 }
 
 #quote-content,

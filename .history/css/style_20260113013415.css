@@ -158,12 +158,11 @@ header button {
 .quote-container__author {
   justify-self: end;
   padding-right: 1rem;
-  max-width: 100%;
 }
 
 .quote-container__author h5 {
   font-weight: 300;
-  max-width: 100%;
+  max-width: 80%;
 }
 
 #quote-content,
